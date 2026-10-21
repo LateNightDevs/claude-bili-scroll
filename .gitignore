@@ -1,0 +1,21 @@
+# Your Bilibili login — anyone with this file can act as your account. Never commit it.
+bili_credential.json
+bili_credential.json.tmp
+qrcode_login.png
+
+# Contact sheets made by bili_frames
+server/frames/
+frames/
+
+# Python environment and caches
+.venv/
+__pycache__/
+*.pyc
+
+# Personal data the skill writes while running
+skill/find-something/reports/*.md
+skill/find-something/seen.md
+skill/find-something/taste.md
+skill/find-something/rules.md
+skill/find-something/later.md
+!skill/find-something/*.template.md
